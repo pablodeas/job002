@@ -34,9 +34,45 @@ h3{
 }
 
 /* Botão do Header */
-.button2{
-    box-sizing: border-box;
-}
+.button1 {
+    background: #EA8B28;
+    background-image: -webkit-linear-gradient(top, #EA8B28, #EA8B28);
+    background-image: -moz-linear-gradient(top, #EA8B28, #EA8B28);
+    background-image: -ms-linear-gradient(top, #EA8B28, #EA8B28);
+    background-image: -o-linear-gradient(top, #EA8B28, #EA8B28);
+    background-image: -webkit-gradient(to bottom, #EA8B28, #EA8B28);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    -webkit-box-shadow: 1px 1px 8px 0 #000000;
+    -moz-box-shadow: 1px 1px 8px 0 #000000;
+    box-shadow: 1px 1px 8px 0 #000000;
+    text-shadow: 1px 1px 0 #000000;
+    border: solid #000000 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button1:hover {
+    border: solid #BCBCBC 0;
+    background: #BCBCBC;
+    background-image: -webkit-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -moz-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -ms-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -o-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -webkit-gradient(to bottom, #BCBCBC, #BCBCBC);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+ }
 
 /* Rodapé */
 footer > p{
