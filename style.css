@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Ubuntu;
+}
+
+/* Imagem de fundo e o Body */
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Texto do Header */
+h1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Título do Header */
+h3{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    font-size: 28px;
+}
+
+/* Botão do Header */
+.button2{
+    box-sizing: border-box;
+}
+
+/* Rodapé */
+footer > p{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* H20 do Rodapé */
+.span1{
+    color: #439ef0;
+}
