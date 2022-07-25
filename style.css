@@ -5,34 +5,26 @@
     font-family: Poppins, Ubuntu;
 }
 
-/* Imagem de fundo e o Body */
 body{
-    background-image: url(./images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
+    background-color: rgb(245, 128, 44);
 }
 
-/* Texto do Header */
-h1{
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    padding: 0px;
+.landingpage{
+    background-size: 100%;
 }
 
 /* Título do Header */
-h3{
+.segundo{
+    background-image: url(./images/landingpage.png);
+    background-size: 100%;
     display: flex;
     flex-direction: column;
-    color: #fff;
+    align-items: center;
     text-align: center;
+    color: #000;
+    padding: 20px;
     width: 100%;
-    padding: 60px;
-    font-size: 28px;
+    height: 1300px;
 }
 
 /* Botão do Header */
@@ -50,7 +42,7 @@ h3{
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 500;
-    padding: 15px;
+    padding: 20px;
     -webkit-box-shadow: 1px 1px 8px 0 #000000;
     -moz-box-shadow: 1px 1px 8px 0 #000000;
     box-shadow: 1px 1px 8px 0 #000000;
@@ -60,6 +52,7 @@ h3{
     display: inline-block;
     cursor: pointer;
     text-align: center;
+    margin-bottom: 2%;
  }
  
  .button1:hover {
@@ -87,6 +80,9 @@ footer > p{
 }
 
 /* H20 do Rodapé */
-.span1{
-    color: #439ef0;
+.rodape{
+    color: darkblue;
+    text-decoration:dotted;
+    text-decoration-color: darkblue;
 }
+
